@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/zoom/zoom-sdk-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NikhilCatalyst' => 'nikhilbkuriakose@gmail.com' }
-  s.source           = { :git => 'https://github.com/NikhilCatalyst/Zoom-SDK-iOS-Dev-Catalyst.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/NikhilCatalyst/Zoom-SDK-iOS-Dev-Catalyst.git', :tag => s.version }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.default_subspec = 'Core'
   s.requires_arc = true
